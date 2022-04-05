@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drake's Coin Flipper</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <!-- h1 for title -->
+    <h1>Penny Flip Game</h1>
+
+    <!-- Penny Image -->
+    <img src="assets/images/penny-heads.jpg" alt="penny image">
+
+    <!-- Two buttons | flip penny, clear score -->
+    <div id="btn-div">
+        <button id="flip">Flip The Penny!</button>
+        <button id="clear">Clear Scoreboard</button>
+    </div>
+    
+
+    <!-- h3 for the result -->
+    <h3 id="message-header">Let's get rolling!</h3>
+
+    <!-- hr tag -->
+    <hr>
+
+    <!-- table with thead and tbody. Both thead and tbody contains one tr with 4 th children -->
+    <table>
+        <thead>
+            <tr>
+                <th>Number of Heads</th>
+                <th>Percentage of Heads</th>
+                <th>Number of Tails</th>
+                <th>Percentage of Tails</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="heads-counter">0</th>
+                <th class="percentHeads">0%</th>
+                <th class="tails-counter">0</th>
+                <th class="percentageTails">0%</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>

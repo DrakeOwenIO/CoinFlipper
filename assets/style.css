@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    border: 1px solid orange;
+}
+
+#btn-div{
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+
+#flip{
+    background: blue;
+    color: white;
+    height: 40px;
+}
+
+#clear{
+    background: orange ;
+    color: white;
+    height: 40px;
+}
+
+#message-header{
+    color: orange;
+    font-weight: bold;
+}
+
+#clear:hover, #flip:hover{
+    color: red;
+    background: white;
+}
